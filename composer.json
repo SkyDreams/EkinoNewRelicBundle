@@ -1,5 +1,5 @@
 {
-    "name": "ekino/newrelic-bundle",
+    "name": "skydreams/newrelic-agent-bundle",
     "type": "symfony-bundle",
     "description": "Integrate New Relic into Symfony2",
     "keywords": ["metric", "performance", "monitoring"],
@@ -13,19 +13,18 @@
         }
     ],
     "require": {
-        "php": "^7.1 | ^8.0",
-        "symfony/config": "^3.4|^4.0|^5.0|^6.0",
-        "symfony/console": "^3.4|^4.0|^5.0|^6.0",
-        "symfony/dependency-injection": "^3.4|^4.0|^5.0|^6.0",
-        "symfony/event-dispatcher": "^3.4|^4.0|^5.0|^6.0",
-        "symfony/http-kernel": "^3.4|^4.0|^5.0|^6.0"
+        "php": "^8.2",
+        "symfony/config": "^7.0|^6.0",
+        "symfony/console": "^7.0|^6.0",
+        "symfony/dependency-injection": "^7.0|^6.0",
+        "symfony/event-dispatcher": "^7.0|^6.0",
+        "symfony/http-kernel": "^7.0|^6.0"
     },
     "require-dev": {
-        "matthiasnoback/symfony-dependency-injection-test": "^3.1|^4.0",
-        "symfony/framework-bundle": "^3.4|^4.0|^5.0|^6.0",
-        "symfony/phpunit-bridge": "^5.3",
-        "symfony/debug": ">3.4.21",
-        "twig/twig": "^1.32|^2.4",
+        "matthiasnoback/symfony-dependency-injection-test": "^3.1|^4.0|^5.1",
+        "symfony/framework-bundle": "^7.0|^6.4",
+        "symfony/phpunit-bridge": "^7.0|6.4",
+        "twig/twig": "^3.0|^2.4",
         "symfony/monolog-bundle": "^3.2"
     },
     "conflict": {
